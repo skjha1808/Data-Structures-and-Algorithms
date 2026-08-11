@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
- 
 int main() {
 
     vector<int> v;
@@ -13,17 +12,8 @@ int main() {
     v.push_back(15);
     v.push_back(3);
 
-    sort(v.begin(), v.end());
-    cout <<"sort in ascending order: ";
-    for(int i:v){
-        cout << i <<" ";
-    } 
-
-    // sort(v.begin(), v.end(), greater<int>());
-    // cout <<"\nsort in descending order: ";
-    // for(int i:v){
-    //     cout << i <<" ";
-    // }
+    cout <<"Largest element: " << *max_element(v.begin(), v.end()) <<endl;
+    cout <<"Smallest element: " << *min_element(v.begin(), v.end()) <<endl;
 
     // lower_bound(>=) & upper_bound(>) to given value:
     auto it = lower_bound(v.begin(),v.end(),3);
@@ -32,14 +22,13 @@ int main() {
     auto it1 = upper_bound(v.begin(),v.end(),3);
     cout << "upper bound is: " << *it1 <<endl;
 
-
     cout <<"Search element: "<< binary_search(v.begin(), v.end(), 7) <<endl;
     cout <<"Count Element: "<< count(v.begin(), v.end(), 5) <<endl;
 
     // auto it = find(v.begin(), v.end(), 9);
     if(find(v.begin(), v.end(), 9) != v.end()){
-        cout <<"found: "<<endl;
-    } else cout <<"not found! "<<endl;
+        cout <<"found "<<endl;
+    } else cout <<"Not found! "<<endl;
 
     cout <<"after replacing: ";
     replace(v.begin(), v.end(),1,20);
@@ -66,8 +55,17 @@ int main() {
     swap(a,b);
     cout <<"After swap a & b are: "<< a << " & " << b <<endl;
     
+    sort(v.begin(), v.end());
+    cout <<"sorted in ascending order: ";
+    for(int i:v){
+        cout << i <<" ";
+    } cout <<endl;
 
-
+    sort(v.begin(), v.end(), greater<int>());
+    cout <<"sorted in descending order: ";
+    for(int i:v){
+        cout << i <<" ";
+    } cout <<endl;
 
     return 0;
 }
