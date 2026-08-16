@@ -2,6 +2,7 @@
 using namespace std;
 
 // Recursive
+// T.C. = O(2^N) -> exponential
 int fib(int n){
     if(n<=1) return n;
 
