@@ -13,8 +13,8 @@ int linearSearch(int arr[],int n,int key){
 int main() {
 
     int array[] = {1,20,15,3,9,7};
-    int n=7;
-    int key=32;
+    int n=6;
+    int key=20;
 
     int result = linearSearch(array,n,key);
 

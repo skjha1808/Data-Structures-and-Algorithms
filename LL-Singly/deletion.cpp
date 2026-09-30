@@ -44,6 +44,10 @@ void deleteNode(node* &head, node* &tail, int pos){
         node* temp = head;   // store current head
         head = head->next;   // move head forward
 
+        if(head == NULL){
+            tail = NULL;
+        }
+
         delete temp;    // free memory
         return;
     }
@@ -56,10 +60,10 @@ void deleteNode(node* &head, node* &tail, int pos){
     }
 
     // if position out of range
-    // if(prev->next == NULL){
-    //     cout << "Position out of range\n";
-    //     return;
-    // }
+    if(temp->next == NULL){
+        cout << "Position out of range\n";
+        return;
+    }
 
     // node to delete
     node* curr = temp->next;

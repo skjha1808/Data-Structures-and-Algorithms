@@ -33,7 +33,9 @@ int getLength(char ch[]){
     while(ch[count] != '\0'){
         count++;
     }
+    return count;
 }
+
 // check palindrome for char array
 bool checkPalindrome(char ch[]){
 

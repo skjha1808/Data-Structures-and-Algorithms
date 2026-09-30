@@ -8,7 +8,7 @@ int main(){
 
     // accessing an array
     cout <<"value at 1st index: "<< arr[0] <<endl;   // it gives garbage value
-    cout <<"value at 5th index: "<< arr[15] <<endl;
+    cout <<"value at 5th index: "<< arr[4] <<endl;
 
     // initialization of an array
     int array[5]={1,5,10,15,20};
