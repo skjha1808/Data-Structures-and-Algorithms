@@ -41,26 +41,21 @@ This repository serves as my personal DSA learning journey and interview prepara
 
 * Singly Linked List
 * Doubly Linked List
+* Linked List Operations
+* Reversal
+* Deletion
 
 ### Stack & Queue
 
 * Stack Operations
 * Queue Operations
-* Monotonic Stack
 * Applications of Stack and Queue
 
 ### Trees
 
 * Tree Traversals
-* Binary Trees
-* Binary Search Trees
+* Binary Tree Concepts
 * Recursive and Iterative Approaches
-
-### Bit Manipulation
-
-* Bitwise Operators
-* XOR Tricks
-* Bitmasking Techniques
 
 ### Sorting Algorithms
 
@@ -83,7 +78,8 @@ This repository serves as my personal DSA learning journey and interview prepara
 * Strengthen problem-solving skills.
 * Build strong DSA fundamentals.
 * Prepare for coding interviews and online assessments.
-* Maintain organized notes and implementations for revision.
+* Maintain organized implementations for revision.
+* Practice different approaches to common DSA problems.
 
 ---
 
@@ -91,6 +87,7 @@ This repository serves as my personal DSA learning journey and interview prepara
 
 ```text
 Data-Structures-and-Algorithms/
+
 │
 ├── Basics/
 ├── Function/
@@ -98,15 +95,25 @@ Data-Structures-and-Algorithms/
 ├── Patterns/
 ├── STL/
 ├── OOPs/
+│
 ├── Array/
+├── ArraySol-Easy/
+├── ArraySol-Medium/
+│
+├── B.S-1DArray/
+├── B.S-Answer/
+│
 ├── String-Easy/
-├── Stack/
-├── Queue/
-├── Trees/
-├── Bit Manipulation/
+│
 ├── LL-Singly/
 ├── LL-Doubly/
-└── Sorting/
+│
+├── Stack/
+├── Queue/
+├── Recursion/
+├── Trees/
+├── Sorting/
+└── Bit Manipulation/
 ```
 
 ---
@@ -115,9 +122,13 @@ Data-Structures-and-Algorithms/
 
 * Arrays ✅
 * Strings ✅
-* Linked List ✅
+* Sorting ✅
+* Binary Search ✅
+* Linked Lists ✅
 * Stack ✅
 * Queue ✅
+* Bit Manipulation 🔄
+* Recursion 🔄
 * Trees 🔄
 * Graphs ⏳
 * Dynamic Programming ⏳
